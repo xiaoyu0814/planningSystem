@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MAXSim>
+	<DataFrom tkb="LHTKE.tkb" bkb="basicdemo5.bkb"/>
+	<TKBSchema>
+	
+		<node id="1" name="武器平台">
+			<node id="101" name="水面舰船">
+				<node id="1101" name="军用舰船">
+					<node id="110101" name="航空母舰"/>
+					<node id="110102" name="直升机航空母舰"/>
+					<node id="110103" name="护卫舰"/>
+					<node id="110104" name="轻巡洋舰"/>
+					<node id="110105" name="驱逐舰"/>
+					<node id="110106" name="快速攻击艇"/>
+					<node id="110107" name="小型巡逻艇"/>
+					<node id="110108" name="海岸巡逻艇"/>
+					<node id="110109" name="鱼雷艇"/>
+					<node id="110110" name="扫雷艇"/>
+					<node id="110111" name="橡皮艇"/>
+					<node id="110112" name="巡洋舰"/>
+					<node id="110113" name="军用船只"/>
+					<node id="110114" name="补给船"/>
+					<node id="110115" name="两栖登陆船"/>
+					<node id="110116" name="无人驾驶水面船只"/></node>
+				<node id="1102" name="民用船只">
+					<node id="110201" name="商用船只">
+						<node id="11020101" name="加油船"/>
+						<node id="11020102" name="油轮"/>
+						<node id="11020103" name="游轮"/>
+						<node id="11020104" name="货柜船"/></node>
+					<node id="110202" name="拖船"/>
+					<node id="110203" name="渔船"/>
+					<node id="110204" name="帆船"/>
+					<node id="110205" name="补给船"/>
+					<node id="110206" name="科考船"/></node></node>
+			<node id="102" name="水下舰船">
+				<node id="1201" name="潜水艇">
+					<node id="120101" name="常规动力"/>
+					<node id="120102" name="核动力"/></node>
+				<node id="1202" name="小型潜艇"/></node>
+			<node id="103" name="固定翼飞机">
+				<node id="1031" name="军用飞机">
+					<node id="130101" name="运输机"/>
+					<node id="130102" name="侦察机"/>
+					<node id="130103" name="战斗机"/>
+					<node id="130104" name="货机"/>
+					<node id="130105" name="轰炸机"/>
+					<node id="130106" name="截击机"/>
+					<node id="130107" name="空中加油机"/></node>
+				<node id="1032" name="民用飞机">
+					<node id="130201" name="货运飞机"/>
+					<node id="130202" name="客机"/>
+					<node id="130203" name="滑翔机"/></node>
+				<node id="1033" name="无人机">
+					<node id="130301" name="无人侦察机"/>
+					<node id="130302" name="无人攻击机"/></node></node>
+			<node id="104" name="旋翼飞机">
+				<node id="1041" name="军用直升机">
+					<node id="140101" name="运输直升机"/>
+					<node id="140102" name="武装直升机"/>
+					<node id="140103" name="侦察直升机"/>
+					<node id="140104" name="海事直升机"/></node>
+				<node id="1042" name="民用直升机">
+					<node id="140201" name="货运直升机"/>
+					<node id="140202" name="客运直升机"/></node>
+				<node id="1043" name="无人直升机">
+					<node id="140301" name="无人侦察直升机"/>
+					<node id="140302" name="无人攻击直升机"/></node></node>
+			<node id="105" name="地面车辆">
+				<node id="1051" name="军用">
+					<node id="10501" name="装甲车辆">
+						<node id="1050101" name="轮式车辆">
+							<node id="105010101" name="炮塔式">
+								<node id="1050101011" name="装甲人员输送车/步兵战车"/>
+								<node id="1050101012" name="战斗工程车"/>
+								<node id="1050101013" name="其它类别"/></node>
+							<node id="105010102" name="无炮塔式">
+								<node id="1050101021" name="装甲人员输送车/步兵战车"/>
+								<node id="1050101022" name="战斗工程车"/>
+								<node id="1050101023" name="其它类别"/></node></node>
+						<node id="1050102" name="履带式">
+							<node id="105010201" name="炮塔式">
+								<node id="1050102011" name="坦克"/>
+								<node id="1050102012" name="装甲人员运输车/步兵战车"/>
+								<node id="1050102013" name="战斗工程车"/>
+								<node id="1050102014" name="其他"/></node>
+							<node id="105010202" name="平台式">
+								<node id="1050102021" name="装甲人员运输车/步兵战车"/>
+								<node id="1050102022" name="战斗工程车"/>
+								<node id="1050102023" name="其它类别"/></node></node></node>
+					<node id="10502" name="无装甲">
+						<node id="1050201" name="履带式"/>
+						<node id="1050202" name="轮式"/>
+						<node id="1050203" name="牵引式"/></node>
+					<node id="10503" name="火炮">
+						<node id="1050301" name="反水面舰艇">
+							<node id="105030101" name="炮">
+								<node id="1050301011" name="自行火炮"/>
+								<node id="1050301012" name="牵引式火炮"/></node>
+							<node id="105030102" name="导弹">
+								<node id="1050301021" name="自行导弹发射车"/>
+								<node id="1050301022" name="牵引式导弹发射车"/></node></node>
+						<node id="1050302" name="防空">
+							<node id="105030201" name="防空机炮">
+								<node id="1050302011" name="自行式"/>
+								<node id="1050302012" name="牵引式"/></node>
+							<node id="105030202" name="导弹">
+								<node id="1050302021" name="自行式"/>
+								<node id="1050302022" name="牵引式"/></node></node></node></node>
+				<node id="1052" name="民用">
+					<node id="105201" name="装甲的">
+						<node id="10520101" name="轮式"/>
+						<node id="10520102" name="履带式"/>
+						<node id="10520103" name="导轨式"/>
+						<node id="10520104" name="滑行式"/></node>
+					<node id="105202" name="无装甲的">
+						<node id="10520201" name="轮式"/>
+						<node id="10520202" name="履带式"/>
+						<node id="10520203" name="导轨式"/>
+						<node id="10520204" name="滑行式"/>
+						<node id="10520205" name="牵引式"/></node></node></node>
+			<node id="108" name="生物">
+				<node id="10801" name="人员"/>
+				<node id="10802" name="动物">
+					<node id="1080201" name="海洋动物"/>
+					<node id="1080202" name="空中动物"/>
+					<node id="1080203" name="陆地4腿动物"/></node></node>
+			<node id="109" name="空基平台">
+				<node id="190101" name="地球同步卫星"/>
+				<node id="190102" name="旋转卫星"/></node>
+			<node id="110" name="浮标"/>
+			<node id="111" name="地面基地"/>
+			<node id="112" name="气球"/></node>
+		<node id="9" name="指挥官">
+			<node id="901" name="联合兵力指挥官">
+				<node id="901001" name="作战指挥官"/></node>
+			<node id="902" name="空军">
+				<node id="902001" name="长机"/>
+				<node id="902002" name="小队长"/>
+				<node id="902003" name="联队长"/></node>
+			<node id="903" name="海军">
+				<node id="903001" name="特混编队"/>
+				<node id="903002" name="特遣队"/></node>
+			<node id="904" name="陆军">
+				<node id="904001" name="班长"/>
+				<node id="904003" name="排长"/>
+				<node id="904002" name="连长"/>
+				<node id="904004" name="营长"/>
+				<node id="904006" name="旅长"/>
+				<node id="904005" name="师长"/></node>
+			<node id="999" name="编组">
+				<node id="999001" name="组名"/></node></node>
+		<node id="3" name="武器">
+			<node id="301" name="枪炮">
+				<node id="31001" name="20mm以下口径"/>
+				<node id="31002" name="20mm以上口径 mm"/></node>
+			<node id="302" name="导弹">
+				<node id="32001" name="反坦克"/>
+				<node id="32002" name="舰舰（地地）"/>
+				<node id="32003" name="舰（地）空"/>
+				<node id="32004" name="空对空"/>
+				<node id="32005" name="空对舰（地）"/></node>
+			<node id="303" name="鱼雷">
+				<node id="33001" name="主动鱼雷"/>
+				<node id="33002" name="被动鱼雷"/>
+				<node id="33003" name="尾迹鱼雷"/></node>
+			<node id="304" name="火箭弹">
+				<node id="34001" name="空对舰（地）"/>
+				<node id="34002" name="舰舰（地地）"/>
+				<node id="34003" name="排雷直列装药"/></node>
+			<node id="305" name="炸弹">
+				<node id="35001" name="传统型"/>
+				<node id="35002" name="精确制导型"/></node>
+			<node id="306" name="地雷及炸药">
+				<node id="3601" name="海军水雷">
+					<node id="360101" name="漂雷"/>
+					<node id="360102" name="锚雷"/>
+					<node id="360103" name="沉底水雷"/>
+					<node id="360104" name="深水炸弹"/></node>
+				<node id="3602" name="地雷"/></node>
+			<node id="307" name="手榴弹"/></node>
+		<node id="2" name="传感器">
+			<node id="201" name="雷达">
+				<node id="21001" name="搜索雷达"/>
+				<node id="21002" name="导航雷达"/>
+				<node id="21003" name="火控雷达"/>
+				<node id="21004" name="空中侦察雷达"/>
+				<node id="21005" name="导弹制导雷达"/>
+				<node id="21006" name="成像雷达">
+					<node id="210061" name="InSAR"/></node>
+				<node id="21007" name="火力探测雷达"/></node>
+			<node id="202" name="声纳">
+				<node id="2021" name="主动声纳">
+					<node id="202101" name="船体式"/>
+					<node id="202102" name="拖曳式"/>
+					<node id="202103" name="投吊式"/></node>
+				<node id="2022" name="被动声纳">
+					<node id="202201" name="船体式"/>
+					<node id="202202" name="拖曳式"/>
+					<node id="202203" name="浸渍式"/></node></node>
+			<node id="203" name="成像设备">
+				<node id="2031" name="视觉成像">
+					<node id="203101" name="望远镜式"/>
+					<node id="203102" name="电视成像"/>
+					<node id="203103" name="光电成像"/>
+					<node id="203104" name="CCD成像"/></node>
+				<node id="2032" name="热成像">
+					<node id="203201" name="前视红外接收器"/></node></node>
+			<node id="204" name="电子监视系统">
+				<node id="2041" name="电子监视系统"/></node>
+			<node id="205" name="敌我识别">
+				<node id="2051" name="问询机"/>
+				<node id="2052" name="应答机"/>
+				<node id="2053" name="接收机，该"/>
+				<node id="2054" name="信标发射机"/></node>
+			<node id="206" name="声学的">
+				<node id="2061" name="听觉的"/></node>
+			<node id="207" name="通信侦听">
+				<node id="2071" name="侦听"/></node>
+			<node id="208" name="磁">
+				<node id="2081" name="电磁对抗"/></node>
+			<node id="209" name="激光">
+				<node id="2091" name="激光指示器"/>
+				<node id="2092" name="激光探测器"/>
+				<node id="2093" name="激光制导"/></node>
+			<node id="210" name="测风激光雷达"/>
+			<node id="211" name="下投式探空仪"/>
+			<node id="212" name="温压湿组件"/></node>
+		<node id="4" name="对抗措施">
+			<node id="401" name="非固定的">
+				<node id="4011" name="被动的">
+					<node id="401101" name="箔条"/>
+					<node id="401102" name="闪光弹"/>
+					<node id="401103" name="烟雾"/></node>
+				<node id="4012" name="主动的">
+					<node id="401201" name="电子对抗">
+						<node id="4012011" name="干扰机"/>
+						<node id="4012012" name="阻断机"/></node>
+					<node id="401202" name="声学的"/>
+					<node id="401203" name="通讯"/></node></node>
+			<node id="402" name="机载">
+				<node id="4021" name="被动">
+					<node id="402101" name="烟雾"/></node>
+				<node id="4022" name="主动">
+					<node id="402201" name="电子对抗">
+						<node id="4022011" name="干扰"/>
+						<node id="4022012" name="阻断"/></node>
+					<node id="402202" name="声音"/>
+					<node id="402203" name="通讯"/></node></node></node>
+		<node id="5" name="通讯设备"/>
+		<node id="10" name="弹药">
+			<node id="1001001" name="20mm以下子弹"/>
+			<node id="1001002" name="20mm以上炮弹"/>
+			<node id="1001003" name="弹头"/>
+			<node id="1001004" name="地雷及炸药"/>
+			<node id="1001005" name="手榴弹"/></node></TKBSchema>
+	<Formations>
+	
+		<CGF type="904001">
+			<formation id="1" name="单线-人（队）"/>
+			<formation id="2" name="两个在前面-人（队）"/>
+			<formation id="3" name="一个在前-人（队）"/>
+			<formation id="4" name="排人（队）"/>
+			<formation id="5" name="半箭头-人右（队）"/>
+			<formation id="6" name="半箭-人左（队）"/>
+			<formation id="66" name="4机菱形编队"/>
+			<formation id="72" name="10人纵队"/>
+			<formation id="74" name="5人纵队"/>
+			<formation id="77" name="2路纵队"/>
+			<formation id="79" name="前三角"/>
+			<formation id="80" name="后三角"/>
+			<formation id="81" name="一字队形"/>
+			<formation id="82" name="后三角队形"/>
+			<formation id="83" name="前三角队形"/>
+			<formation id="84" name="左梯形队形"/>
+			<formation id="85" name="右梯形队形"/>
+			<formation id="86" name="一路队形"/>
+			<formation id="87" name="车-一字队形"/>
+			<formation id="88" name="车-一路队形"/>
+			<formation id="89" name="车-后三角队形"/>
+			<formation id="90" name="车-前三角队形"/>
+			<formation id="91" name="车-左梯形队形"/>
+			<formation id="92" name="车-右梯形队形"/></CGF>
+		<CGF type="904003">
+			<formation id="7" name="单线（步兵排）"/>
+			<formation id="8" name="在两个阵线（步兵排）"/>
+			<formation id="9" name="在一个阵线（步兵排）"/>
+			<formation id="10" name="行（步兵排）"/>
+			<formation id="11" name="两行左（步兵排）"/>
+			<formation id="12" name="两行右（步兵排）"/>
+			<formation id="13" name="半箭头向右（步兵排）"/>
+			<formation id="14" name="半箭头左（步兵排）"/>
+			<formation id="15" name="停车（步兵排）"/>
+			<formation id="16" name="单线式（步兵排）"/>
+			<formation id="17" name="排式（步兵排）"/>
+			<formation id="70" name="发烟编队"/>
+			<formation id="71" name="单线（步兵排10）"/></CGF>
+		<CGF type="904002">
+			<formation id="29" name="单线（步兵连）"/>
+			<formation id="30" name="在两个阵线（步兵连）"/>
+			<formation id="31" name="在一个阵线（步兵连）"/>
+			<formation id="32" name="行（步兵连）"/>
+			<formation id="33" name="两行左（步兵连）"/>
+			<formation id="34" name="两行右（步兵连）"/>
+			<formation id="35" name="半箭头向右（步兵连）"/>
+			<formation id="36" name="半箭头左（步兵连）"/>
+			<formation id="37" name="箭头（步兵连）"/>
+			<formation id="76" name="单线（10）"/></CGF>
+		<CGF type="904004">
+			<formation id="42" name="单线（INF batalion）"/>
+			<formation id="43" name="行（INF batalion）"/>
+			<formation id="44" name="两行左（INF batalion）"/>
+			<formation id="45" name="两行右（INF batalion）"/>
+			<formation id="75" name="单线（12）"/></CGF>
+		<CGF type="902001">
+			<formation id="50" name="V型飞机（对）"/>
+			<formation id="51" name="菱形（对）"/>
+			<formation id="52" name="行（对）"/></CGF>
+		<CGF type="902002">
+			<formation id="53" name="V型飞机（四）"/>
+			<formation id="54" name="菱形（四）"/>
+			<formation id="55" name="行（四）"/>
+			<formation id="65" name="8机编队"/>
+			<formation id="66" name="4机菱形编队"/>
+			<formation id="67" name="三机编队"/></CGF>
+		<CGF type="902003">
+			<formation id="56" name="V型飞机（编队）"/>
+			<formation id="57" name="菱形（编队）"/>
+			<formation id="58" name="行（编队）"/></CGF>
+		<CGF type="903002">
+			<formation id="59" name="单线（任务单元）"/>
+			<formation id="60" name="行（任务编队）"/>
+			<formation id="65" name="8机编队"/></CGF>
+		<CGF type="903001">
+			<formation id="61" name="单线（任务单元）"/>
+			<formation id="62" name="行（任务单元）"/>
+			<formation id="63" name="V型水面舰艇（任务单元）"/>
+			<formation id="64" name="锯齿线型??（任务单元）"/>
+			<formation id="69" name="航母舰队"/></CGF></Formations>
+	<TKB>
+	
+		<node model="5000288" type="5" name="通讯(30-1000)"/>
+		<node model="5002608" type="5" name="通讯(48-960)"/>
+		<node model="2125168993" type="5" name="TKR127A 短波电台"/>
+		<node model="2125191922" type="5" name="TKR128G 超短波电台"/>
+		<node model="2125436229" type="5" name="TKR127 短波电台"/>
+		<node model="2125529093" type="5" name="TKR128 超短波电台"/>
+		<node model="2126388504" type="5" name="车载电台"/>
+		<node model="2127332303" type="5" name="车载短波电台"/>
+		<node model="2127653141" type="5" name="车载超短波电台"/>
+		<node model="2127750880" type="5" name="便携电台"/>
+		<node model="2127864437" type="5" name="机载电台"/>
+		<node model="2133156741" type="5" name="通信设备"/>
+		<node model="2138146332" type="5" name="阿帕奇通讯电台"/>
+		<node model="-2146311643" type="1001002" name="90mm 坦克炮弹"/>
+		<node model="3925562" type="1001002" name="155mm 榴弹炮弹药"/>
+		<node model="10000104" type="1001001" name="20mm-aa"/>
+		<node model="10000364" type="1001001" name="7.62mm"/>
+		<node model="10000660" type="1001002" name="100mm HEAT"/>
+		<node model="10000836" type="1001002" name="23mm BZT "/>
+		<node model="10000889" type="1001003" name="Stinger 弹头"/>
+		<node model="10001150" type="1001002" name="23mm OFZT"/>
+		<node model="10001873" type="1001002" name="100mm armor piercing"/>
+		<node model="2121134643" type="1001003" name="海蛇怪70mm"/>
+		<node model="2122826116" type="1001002" name="105mm低后坐力坦克炮"/>
+		<node model="2125889462" type="1001003" name="AKD-10弹药"/>
+		<node model="2125957458" type="1001003" name="AKD-9弹药"/>
+		<node model="2126035393" type="1001003" name="AKD-8弹药"/>
+		<node model="2126099078" type="1001003" name="PL-90弹药"/>
+		<node model="2126136285" type="1001003" name="地狱火弹药"/>
+		<node model="2126219462" type="1001003" name="毒刺弹药"/>
+		<node model="2126306014" type="1001003" name="AIM-9响尾蛇弹药"/>
+		<node model="2126328422" type="1001002" name="90mm 航空火箭弹弹药"/>
+		<node model="2126345829" type="1001002" name="70mm 航空火箭弹弹药"/>
+		<node model="2126701918" type="1001003" name="低阻全膛底凹増程榴弹"/>
+		<node model="2128738899" type="1001002" name="30mm"/>
+		<node model="2132875607" type="1001003" name="57mm 火箭弹"/>
+		<node model="2133072149" type="1001003" name="红箭7 弹药"/>
+		<node model="2137160503" type="1001002" name="75mm"/>
+		<node model="2138380585" type="1001002" name="TC63 120mm"/>
+		<node model="2138438642" type="1001002" name="TC86 120mm"/>
+		<node model="2139649130" type="1001003" name="中距导弹弹药"/>
+		<node model="2140943107" type="1001001" name="12.7mm"/>
+		<node model="2142268530" type="1001003" name="S-24型火箭弹"/>
+		<node model="2118620828" type="140102" name="AH-64D阿帕奇" motionMaxHeight="6400.0014240252" motionMaxVel="99.997702472">
+			<Mounteds>
+				<weapon MaxLoads="16" index="0" type="32004" model="2540253" name="毒刺导弹">
+					<munition index="0" model="2126219462" name="毒刺弹药" loads="8"/>
+					<munition index="1" model="2126219462" name="毒刺弹药" loads="8"/>
+					</weapon>
+				<weapon MaxLoads="1200" index="1" type="31002" model="2676767" name="M-203 30毫米机炮">
+					<munition index="0" model="2128738899" name="30mm" loads="1200"/>
+					</weapon>
+				<weapon MaxLoads="76" index="2" type="34001" model="2638096" name="海蛇怪70毫米火箭">
+					<munition index="0" model="2121134643" name="海蛇怪70mm" loads="76"/>
+					</weapon>
+				<weapon MaxLoads="16" index="3" type="32001" model="2585306" name="地狱火反坦克导弹">
+					<munition index="0" model="2126136285" name="地狱火弹药" loads="8"/>
+					<munition index="1" model="2126136285" name="地狱火弹药" loads="8"/>
+					</weapon>
+				<weapon MaxLoads="8" index="4" type="32004" model="1939230746" name="AIM-9 响尾蛇(机载)">
+					<munition index="0" model="2126306014" name="AIM-9响尾蛇弹药" loads="4"/>
+					<munition index="1" model="2126306014" name="AIM-9响尾蛇弹药" loads="4"/>
+					</weapon>
+				<sensor index="0" type="21001" model="2125880692" name="AN/APG-78(V) 长弓毫米波雷达"/>
+				<sensor index="1" type="2052" model="2052000241" name="AirIFF"/>
+				<sensor index="2" type="203103" model="3341390" name="CCD探测器(电视观瞄具)"/>
+				<sensor index="3" type="2041" model="2118993587" name="AN/APR-39雷达预警处理系统"/>
+				<sensor index="4" type="2091" model="2134259385" name="激光照射器"/>
+				<sensor index="5" type="2051" model="2051000102" name=" IFF"/>
+				<sensor index="6" type="2053" model="6154872" name="AN/PPX3B式"/>
+				<sensor index="7" type="2091" model="5356006" name="AN/AVR-2激光告警器"/>
+				<sensor index="8" type="203201" model="2127443601" name="AN/CSG-2 热成像仪夜视系统"/>
+				<decoy index="0" type="401101" model="1669041535" name="Chaff"/>
+				<decoy index="1" type="401102" model="1670041587" name="flare"/>
+				<ecm index="0" type="4022011" model="2132833850" name="AH-64干扰机"/>
+				<communication index="0" type="5" model="2138146332" name="阿帕奇通讯电台"/>
+				<communication index="1" type="5" model="2138146332" name="阿帕奇通讯电台1"/></Mounteds></node>
+		<node model="2118634858" type="140102" name="直-10" motionMaxHeight="7000.00022402756" motionMaxVel="83.298837248">
+			<Mounteds>
+				<weapon MaxLoads="1000" index="0" type="31001" model="2141894253" name="12.7mm机枪">
+					<munition index="0" model="2140943107" name="12.7mm" loads="1000"/>
+					</weapon>
+				<weapon MaxLoads="16" index="1" type="34001" model="2118698162" name="57-1型 57mm火箭弹">
+					<munition index="0" model="2132875607" name="57mm 火箭弹" loads="16"/>
+					</weapon>
+				<weapon MaxLoads="16" index="2" type="32005" model="2141833089" name="蓝箭-9空地导弹">
+					<munition index="0" model="2125957458" name="AKD-9弹药" loads="8"/>
+					<munition index="1" model="2125957458" name="AKD-9弹药" loads="8"/>
+					</weapon>
+				<weapon MaxLoads="16" index="3" type="32004" model="2141849876" name="天燕-90空空导弹">
+					<munition index="0" model="2139649130" name="中距导弹弹药" loads="16"/>
+					</weapon>
+				<sensor index="0" type="203103" model="3341390" name="CCD探测器"/>
+				<sensor index="1" type="203201" model="2125261574" name="热像观瞄具"/>
+				<sensor index="2" type="2092" model="3476635" name="激光测距仪"/>
+				<sensor index="3" type="2041" model="2125316033" name="雷达告警器"/>
+				<sensor index="4" type="2091" model="2134259385" name="激光照射器"/>
+				<sensor index="5" type="2052" model="2125201191" name="LKB02"/>
+				<sensor index="6" type="2051" model="2137753647" name="敌我识别问询机"/>
+				<sensor index="7" type="2053" model="2137931922" name="敌我识别接收机"/>
+				<decoy index="0" type="401101" model="2368687" name="Z10 I型箔条弹"/>
+				<decoy index="1" type="401102" model="2457849" name="I型红外弹"/>
+				<ecm index="0" type="4022011" model="2132769895" name="直-10干扰机"/>
+				<communication index="0" type="5" model="2125168993" name="TKR127A 短波电台"/>
+				<communication index="1" type="5" model="2125191922" name="TKR128G 超短波电台"/></Mounteds></node>
+		<node model="2118885383" type="140103" name="OH-58基奥瓦" motionMaxHeight="3660.00000000001" motionMaxVel="66.9999942116633">
+			<Mounteds>
+				<weapon MaxLoads="1200" index="0" type="31002" model="2676767" name="M-203 30毫米机炮">
+					<munition index="0" model="2128738899" name="30mm" loads="1200"/>
+					</weapon>
+				<weapon MaxLoads="38" index="1" type="34001" model="2638096" name="海蛇怪70毫米火箭">
+					<munition index="0" model="2121134643" name="海蛇怪70mm" loads="38"/>
+					</weapon>
+				<weapon MaxLoads="4" index="2" type="32001" model="2585306" name="地狱火反坦克导弹">
+					<munition index="0" model="2126136285" name="地狱火弹药" loads="2"/>
+					<munition index="1" model="2126136285" name="地狱火弹药" loads="2"/>
+					</weapon>
+				<weapon MaxLoads="8" index="3" type="32004" model="2540253" name="毒刺导弹">
+					<munition index="0" model="2126219462" name="毒刺弹药" loads="4"/>
+					<munition index="1" model="2126219462" name="毒刺弹药" loads="4"/>
+					</weapon>
+				<sensor index="0" type="203102" model="1238537210" name="TV"/>
+				<sensor index="1" type="203201" model="4438054" name="红外热像仪"/>
+				<sensor index="2" type="2092" model="3476635" name="激光测距仪"/>
+				<sensor index="3" type="203102" model="4567228" name="电视跟踪器"/>
+				<sensor index="4" type="2041" model="2118993587" name="APR-39雷达预警处理系统"/>
+				<sensor index="5" type="21002" model="2118945921" name="ASN-137多普勒速率测量系统"/>
+				<sensor index="6" type="2051" model="2051000102" name=" IFF"/>
+				<sensor index="7" type="2052" model="2052000241" name="AirIFF"/>
+				<sensor index="8" type="2053" model="6154872" name="AN/PPX3B式"/>
+				<decoy index="0" type="401101" model="1669041535" name="Chaff"/>
+				<decoy index="1" type="401102" model="1670041587" name="flare"/>
+				<communication index="0" type="5" model="2125436229" name="TKR127 短波电台"/>
+				<communication index="1" type="5" model="2125529093" name="TKR128 超短波电台"/></Mounteds></node>
+		<node model="2124158204" type="140103" name="直-9WZ" motionMaxHeight="6999.99999999999" motionMaxVel="79.9999930885527">
+			<Mounteds>
+				<weapon MaxLoads="480" index="0" type="31002" model="3571604" name="23毫米航炮">
+					<munition index="0" model="10000836" name="23mm BZT " loads="240"/>
+					<munition index="1" model="10001150" name="23mm OFZT" loads="240"/>
+					</weapon>
+				<weapon MaxLoads="8" index="1" type="32005" model="2118752632" name="AKD-8空地导弹">
+					<munition index="0" model="2126035393" name="AKD-8弹药" loads="4"/>
+					<munition index="1" model="2126035393" name="AKD-8弹药" loads="4"/>
+					</weapon>
+				<weapon MaxLoads="38" index="2" type="34001" model="2118698162" name="57-1型火箭弹">
+					<munition index="0" model="2132875607" name="57mm 火箭弹" loads="38"/>
+					</weapon>
+				<weapon MaxLoads="2000" index="3" type="31001" model="3742878" name="12.7毫米高射机枪">
+					<munition index="0" model="2140943107" name="12.7mm" loads="2000"/>
+					</weapon>
+				<sensor index="0" type="21004" model="470835971" name="Sea Tiger"/>
+				<sensor index="1" type="203102" model="1238537210" name="TV"/>
+				<sensor index="2" type="203201" model="4438054" name="红外热像仪"/>
+				<sensor index="3" type="2091" model="5356006" name="激光告警器"/>
+				<sensor index="4" type="2092" model="3476635" name="激光测距仪"/>
+				<sensor index="5" type="21002" model="5269054" name="多普勒导航系统"/>
+				<decoy index="0" type="401102" model="2457849" name="I型红外弹"/>
+				<decoy index="1" type="401101" model="2368687" name="Z10 I型箔条弹"/>
+				<communication index="0" type="5" model="2125168993" name="TKR127A 短波电台"/>
+				<communication index="1" type="5" model="2125191922" name="TKR128G 超短波电台"/></Mounteds></node>
+		<node model="2125770525" type="140101" name="直-8B" motionMaxHeight="6000.00019202362" motionMaxVel="38.99488552">
+			<Mounteds>
+				<weapon MaxLoads="100" index="0" type="34001" model="2130617" name="70mm航空火箭弹">
+					<munition index="0" model="2126345829" name="70mm 航空火箭弹弹药" loads="50"/>
+					<munition index="1" model="2126345829" name="70mm 航空火箭弹弹药" loads="50"/>
+					</weapon>
+				<sensor index="0" type="203102" model="1238537210" name="TV"/>
+				<sensor index="1" type="203201" model="4438054" name="红外热像仪"/>
+				<sensor index="2" type="2041" model="2125316033" name="雷达告警器"/>
+				<sensor index="3" type="2091" model="5356006" name="AN/AVR-2激光告警器"/>
+				<decoy index="0" type="401101" model="2368687" name="Z10 I型箔条弹"/>
+				<decoy index="1" type="401102" model="2457849" name="I型红外弹"/>
+				<communication index="0" type="5" model="2125168993" name="TKR127A 短波电台"/>
+				<communication index="1" type="5" model="2125191922" name="TKR128G 超短波电台"/></Mounteds></node>
+		<node model="2125791352" type="140101" name="米-171" motionMaxHeight="6499.99999999999" motionMaxVel="41.6666630669546">
+			<Mounteds>
+				<weapon MaxLoads="200" index="0" type="34001" model="2118698162" name="57-1型 57mm火箭弹">
+					<munition index="0" model="2132875607" name="57mm 火箭弹" loads="200"/>
+					</weapon>
+				<weapon MaxLoads="200" index="1" type="31002" model="3571604" name="23mm 航炮">
+					<munition index="0" model="10000836" name="23mm BZT " loads="100"/>
+					<munition index="1" model="10001150" name="23mm OFZT" loads="100"/>
+					</weapon>
+				<weapon MaxLoads="1000" index="2" type="31001" model="2119366325" name="7.62mm同轴机枪">
+					<munition index="0" model="10000364" name="7.62mm" loads="1000"/>
+					</weapon>
+				<sensor index="0" type="203102" model="1238537210" name="TV"/>
+				<sensor index="1" type="203201" model="6043665" name="二代增强式红外热像仪"/>
+				<sensor index="2" type="2041" model="2125316033" name="雷达告警器"/>
+				<sensor index="3" type="2091" model="5356006" name="AN/AVR-2激光告警器"/>
+				<decoy index="0" type="401101" model="2368687" name="Z10 I型箔条弹"/>
+				<decoy index="1" type="401102" model="2457849" name="I型红外弹"/>
+				<communication index="0" type="5" model="2125168993" name="TKR127A 短波电台"/>
+				<communication index="1" type="5" model="2125191922" name="TKR128G 超短波电台"/></Mounteds></node>
+		<node model="2125823873" type="140101" name="UH-60黑鹰" motionMaxHeight="5789.9990880228" motionMaxVel="50.9299956">
+			<Mounteds>
+				<weapon MaxLoads="2000" index="0" type="31001" model="2119366325" name="7.62mm同轴机枪">
+					<munition index="0" model="10000364" name="7.62mm" loads="2000"/>
+					</weapon>
+				<sensor index="0" type="203102" model="1238537210" name="TV"/>
+				<sensor index="1" type="203201" model="6043665" name="二代增强式红外热像仪"/>
+				<sensor index="2" type="2041" model="2125316033" name="雷达告警器"/>
+				<sensor index="3" type="2091" model="5356006" name="AN/AVR-2激光告警器"/>
+				<decoy index="0" type="401101" model="1669041535" name="Chaff"/>
+				<decoy index="1" type="401102" model="1670041587" name="flare"/>
+				<communication index="0" type="5" model="2127864437" name="机载电台"/>
+				<communication index="1" type="5" model="2127864437" name="机载电台1"/></Mounteds></node>
+		<node model="2135514786" type="140103" name="直-19" motionMaxHeight="7000.00022402756" motionMaxVel="83.298837248">
+			<Mounteds>
+				<weapon MaxLoads="1000" index="0" type="31001" model="2141894253" name="12.7mm机枪">
+					<munition index="0" model="2140943107" name="12.7mm" loads="1000"/>
+					</weapon>
+				<weapon MaxLoads="38" index="1" type="34001" model="2118698162" name="57-1型 57mm火箭弹">
+					<munition index="0" model="2132875607" name="57mm 火箭弹" loads="38"/>
+					</weapon>
+				<weapon MaxLoads="16" index="2" type="32005" model="2141833089" name="蓝箭-9空地导弹">
+					<munition index="0" model="2125957458" name="AKD-9弹药" loads="8"/>
+					<munition index="1" model="2125957458" name="AKD-9弹药" loads="8"/>
+					</weapon>
+				<weapon MaxLoads="16" index="3" type="32004" model="2141849876" name="天燕-90空空导弹">
+					<munition index="0" model="2139649130" name="中距导弹弹药" loads="16"/>
+					</weapon>
+				<sensor index="0" type="203103" model="3341390" name="CCD探测器(电视观瞄具)"/>
+				<sensor index="1" type="203201" model="4438054" name="红外热像仪"/>
+				<sensor index="2" type="2041" model="2125316033" name="雷达告警器"/>
+				<sensor index="3" type="2091" model="5356006" name="AN/AVR-2激光告警器"/>
+				<sensor index="4" type="2092" model="2119407710" name="CO2激光测距仪"/>
+				<sensor index="5" type="21001" model="2125850842" name="直-19机载毫米波雷达"/>
+				<sensor index="6" type="2051" model="2137753647" name="敌我识别问询机"/>
+				<sensor index="7" type="2052" model="2137851447" name="敌我识别应答机"/>
+				<sensor index="8" type="2053" model="2137931922" name="敌我识别接收机"/>
+				<decoy index="0" type="401101" model="2368687" name="Z10 I型箔条弹"/>
+				<decoy index="1" type="401102" model="2457849" name="I型红外弹"/>
+				<communication index="0" type="5" model="2125436229" name="TKR127 短波电台"/>
+				<communication index="1" type="5" model="2125529093" name="TKR128 超短波电台"/></Mounteds></node>
+		<node model="-2145805540" type="1050101011" name="V150型81毫米迫击炮车" motionMaxHeight="1000" motionMaxVel="22.2222222222222">
+			<Mounteds>
+				<weapon MaxLoads="200" index="0" type="31002" model="2676767" name="M-203 30毫米机炮">
+					<munition index="0" model="2128738899" name="30mm" loads="200"/>
+					</weapon>
+				<weapon MaxLoads="10" index="1" type="32001" model="2119088338" name="红箭7">
+					<munition index="0" model="2133072149" name="红箭7 弹药" loads="10"/>
+					</weapon>
+				<sensor index="0" type="203103" model="3341390" name="CCD探测器"/>
+				<sensor index="1" type="21002" model="5212968" name="GPS导航系统"/>
+				<decoy index="0" type="401103" model="3605852" name="烟幕弹"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="-2145736521" type="1050301011" name="MK1940榴弹枪" motionMaxHeight="1" motionMaxVel="15.2777777777778">
+			<Mounteds>
+				<weapon MaxLoads="60" index="0" type="31002" model="2138210490" name="帕拉丁-155mm榴弹炮">
+					<munition index="0" model="3925562" name="155mm 榴弹炮弹药" loads="60"/>
+					</weapon>
+				<sensor index="0" type="203103" model="3341390" name="CCD探测器(电视观瞄具)"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="1157668" type="1050301011" name="PLZ05 155mm 自行榴弹炮" motionMaxVel="15.2777777777778">
+			<Mounteds>
+				<weapon MaxLoads="60" index="0" type="31002" model="2138335216" name="PLZ05 155mm">
+					<munition index="0" model="2126701918" name="低阻全膛底凹増程榴弹" loads="60"/>
+					</weapon>
+				<sensor index="0" type="203103" model="4141535" name="数字式火炮周视瞄准镜"/>
+				<sensor index="1" type="203101" model="4057170" name="炮长直接瞄准镜"/>
+				<sensor index="2" type="203103" model="4238127" name="车长昼夜稳像周视观察镜"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="1779984" type="1050302021" name="复仇者防空导弹系统" motionMaxHeight="1" motionMaxVel="24.7222222222222">
+			<Mounteds>
+				<weapon MaxLoads="8" index="0" type="32003" model="4606247" name="FIM-92A">
+					<munition index="0" model="10000889" name="Stinger 弹头" loads="8"/>
+					</weapon>
+				<weapon MaxLoads="8" index="1" type="32003" model="4688670" name="FIM-92B">
+					<munition index="0" model="10000889" name="Stinger 弹头" loads="8"/>
+					</weapon>
+				<weapon MaxLoads="8" index="2" type="32003" model="4787425" name="FIM-92C">
+					<munition index="0" model="10000889" name="Stinger 弹头" loads="8"/>
+					</weapon>
+				<weapon MaxLoads="700" index="3" type="31001" model="3742878" name="12.7毫米高射机枪">
+					<munition index="0" model="2140943107" name="12.7mm" loads="700"/>
+					</weapon>
+				<sensor index="0" type="203201" model="4438054" name="红外热像仪"/>
+				<sensor index="1" type="2051" model="2051000102" name=" IFF"/>
+				<sensor index="2" type="2092" model="3476635" name="激光测距仪"/>
+				<sensor index="3" type="203101" model="2126462637" name="光学瞄准镜"/>
+				<sensor index="4" type="203103" model="2120178817" name="STC"/>
+				<sensor index="5" type="2053" model="6154872" name="AN/PPX3B式"/>
+				<sensor index="6" type="21001" model="4565564" name="S波段多普勒"/>
+				<communication index="0" type="5" model="2127653141" name="车载超短波电台"/>
+				<communication index="1" type="5" model="2127332303" name="车载短波电台"/></Mounteds></node>
+		<node model="313002392" type="1050102011" name="M48H坦克" motionMaxHeight="1" motionMaxVel="16.6666666666667">
+			<Mounteds>
+				<weapon MaxLoads="63" index="0" type="31002" model="-2146313874" name="90mm 坦克炮">
+					<munition index="0" model="-2146311643" name="90mm 坦克炮弹" loads="63"/>
+					</weapon>
+				<weapon MaxLoads="630" index="1" type="31001" model="3742878" name="12.7mm高射机枪">
+					<munition index="0" model="2140943107" name="12.7mm" loads="630"/>
+					</weapon>
+				<weapon MaxLoads="6000" index="2" type="31001" model="2119366325" name="7.62mm同轴机枪">
+					<munition index="0" model="10000364" name="7.62mm" loads="6000"/>
+					</weapon>
+				<sensor index="0" type="203201" model="5574735" name="车长独立热像仪"/>
+				<sensor index="1" type="2092" model="3476635" name="激光测距仪"/>
+				<sensor index="2" type="203101" model="5585422" name="改进型周视潜望镜"/>
+				<sensor index="3" type="2091" model="5356006" name="AN/AVR-2激光告警器"/>
+				<decoy index="0" type="401103" model="3605852" name="烟幕弹"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="313002655" type="1050102011" name="M41D坦克" motionMaxHeight="1" motionMaxVel="16.6666666666667">
+			<Mounteds>
+				<weapon MaxLoads="63" index="0" type="31002" model="-2146313874" name="90mm 坦克炮">
+					<munition index="0" model="-2146311643" name="90mm 坦克炮弹" loads="63"/>
+					</weapon>
+				<weapon MaxLoads="630" index="1" type="31001" model="3742878" name="12.7mm高射机枪">
+					<munition index="0" model="2140943107" name="12.7mm" loads="630"/>
+					</weapon>
+				<weapon MaxLoads="6000" index="2" type="31001" model="2119366325" name="7.62mm同轴机枪">
+					<munition index="0" model="10000364" name="7.62mm" loads="6000"/>
+					</weapon>
+				<sensor index="0" type="203201" model="5574735" name="车长独立热像仪"/>
+				<sensor index="1" type="2092" model="3476635" name="激光测距仪"/>
+				<sensor index="2" type="203101" model="5585422" name="改进型周视潜望镜"/>
+				<sensor index="3" type="2091" model="5356006" name="AN/AVR-2激光告警器"/>
+				<decoy index="0" type="401103" model="3605852" name="烟幕弹"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="313002726" type="1050102011" name="T-54A中型坦克" motionMaxHeight="1" motionMaxVel="16.6666666666667">
+			<Mounteds>
+				<weapon MaxLoads="63" index="0" type="31002" model="-2146313874" name="90mm 坦克炮">
+					<munition index="0" model="-2146311643" name="90mm 坦克炮弹" loads="63"/>
+					</weapon>
+				<weapon MaxLoads="630" index="1" type="31001" model="3742878" name="12.7mm高射机枪">
+					<munition index="0" model="2140943107" name="12.7mm" loads="630"/>
+					</weapon>
+				<weapon MaxLoads="6000" index="2" type="31001" model="2119366325" name="7.62mm同轴机枪">
+					<munition index="0" model="10000364" name="7.62mm" loads="6000"/>
+					</weapon>
+				<sensor index="0" type="203201" model="5574735" name="车长独立热像仪"/>
+				<sensor index="1" type="2092" model="3476635" name="激光测距仪"/>
+				<sensor index="2" type="203101" model="5585422" name="改进型周视潜望镜"/>
+				<sensor index="3" type="2091" model="5356006" name="AN/AVR-2激光告警器"/>
+				<decoy index="0" type="401103" model="3605852" name="烟幕弹"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="1119501622" type="1050301012" name="120车载迫击炮" motionMaxHeight="1">
+			<Mounteds>
+				<weapon MaxLoads="12" index="0" type="31002" model="2137582713" name="T86 120mm迫击炮">
+					<munition index="0" model="2138380585" name="TC63 120mm" loads="6"/>
+					<munition index="1" model="2138438642" name="TC86 120mm" loads="6"/>
+					</weapon>
+				<sensor index="0" type="203103" model="2138525473" name="M53式瞄准具"/>
+				<sensor index="1" type="203103" model="2138555785" name="TS86式瞄准具"/>
+				<communication index="0" type="5" model="2127332303" name="车载短波电台"/></Mounteds></node>
+		<node model="1119501670" type="1050301012" name="81车载迫击炮" motionMaxHeight="1">
+			<Mounteds>
+				<weapon MaxLoads="100" index="0" type="31002" model="2137086041" name="75mm 榴弹炮">
+					<munition index="0" model="2137160503" name="75mm" loads="100"/>
+					</weapon>
+				<sensor index="0" type="203101" model="2138742981" name="地对地目视"/>
+				<communication index="0" type="5" model="2133156741" name="通信设备"/></Mounteds></node>
+		<node model="1119502249" type="1050301012" name="106.7车载迫击炮" motionMaxHeight="1">
+			<Mounteds>
+				<weapon MaxLoads="12" index="0" type="31002" model="2137582713" name="T86 120mm迫击炮">
+					<munition index="0" model="2138380585" name="TC63 120mm" loads="6"/>
+					<munition index="1" model="2138438642" name="TC86 120mm" loads="6"/>
+					</weapon>
+				<sensor index="0" type="203103" model="2138525473" name="M53式瞄准具"/>
+				<sensor index="1" type="203103" model="2138555785" name="TS86式瞄准具"/>
+				<communication index="0" type="5" model="2127332303" name="车载短波电台"/></Mounteds></node>
+		<node model="1311002655" type="1050101013" name="PLL-05自行迫榴炮" motionMaxVel="27.7777777777778">
+			<Mounteds>
+				<weapon MaxLoads="10" index="0" type="31002" model="2137582713" name="T86 120mm迫击炮">
+					<munition index="0" model="2138380585" name="TC63 120mm" loads="5"/>
+					<munition index="1" model="2138438642" name="TC86 120mm" loads="5"/>
+					</weapon></Mounteds></node>
+		<node model="1311002816" type="1050101013" name="陶氏反坦克导弹车" motionMaxHeight="1" motionMaxVel="27.7777777777778">
+			<Mounteds>
+				<communication index="0" type="5" model="2127750880" name="便携电台"/></Mounteds></node>
+		<node model="1313002816" type="1050101011" name="装甲运弹车（迫击炮）" motionMaxHeight="1000" motionMaxVel="27.7777777777778">
+			<Mounteds>
+				<weapon MaxLoads="200" index="0" type="31002" model="2676767" name="M-203 30毫米机炮">
+					<munition index="0" model="2128738899" name="30mm" loads="200"/>
+					</weapon>
+				<weapon MaxLoads="10" index="1" type="32001" model="2119088338" name="红箭7">
+					<munition index="0" model="2133072149" name="红箭7 弹药" loads="10"/>
+					</weapon>
+				<weapon MaxLoads="10" index="2" type="31002" model="2138936380" name="100mm 迫击炮">
+					<munition index="0" model="10001873" name="100mm armor piercing" loads="5"/>
+					<munition index="1" model="10000660" name="100mm HEAT" loads="5"/>
+					</weapon>
+				<sensor index="0" type="203103" model="3341390" name="CCD探测器"/>
+				<sensor index="1" type="21002" model="5212968" name="GPS导航系统"/>
+				<decoy index="0" type="401103" model="3605852" name="烟幕弹"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="1313002817" type="1050101011" name="装甲战斗车" motionMaxHeight="1000" motionMaxVel="27.7777777777778">
+			<Mounteds>
+				<weapon MaxLoads="200" index="0" type="31002" model="2676767" name="M-203 30毫米机炮">
+					<munition index="0" model="2128738899" name="30mm" loads="200"/>
+					</weapon>
+				<weapon MaxLoads="10" index="1" type="32001" model="2119088338" name="红箭7">
+					<munition index="0" model="2133072149" name="红箭7 弹药" loads="10"/>
+					</weapon>
+				<sensor index="0" type="203103" model="3341390" name="CCD探测器"/>
+				<sensor index="1" type="21002" model="5212968" name="GPS导航系统"/>
+				<decoy index="0" type="401103" model="3605852" name="烟幕弹"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="1313002818" type="1050101011" name="装甲指挥车" motionMaxHeight="1000" motionMaxVel="27.7777777777778">
+			<Mounteds>
+				<weapon MaxLoads="200" index="0" type="31002" model="2676767" name="M-203 30毫米机炮">
+					<munition index="0" model="2128738899" name="30mm" loads="200"/>
+					</weapon>
+				<weapon MaxLoads="10" index="1" type="32001" model="2119088338" name="红箭7">
+					<munition index="0" model="2133072149" name="红箭7 弹药" loads="10"/>
+					</weapon>
+				<sensor index="0" type="203103" model="3341390" name="CCD探测器"/>
+				<sensor index="1" type="21002" model="5212968" name="GPS导航系统"/>
+				<decoy index="0" type="401103" model="3605852" name="烟幕弹"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="1313002819" type="1050101011" name="装甲运弹车" motionMaxHeight="1000" motionMaxVel="27.7777777777778">
+			<Mounteds>
+				<weapon MaxLoads="200" index="0" type="31002" model="2676767" name="M-203 30毫米机炮">
+					<munition index="0" model="2128738899" name="30mm" loads="200"/>
+					</weapon>
+				<weapon MaxLoads="10" index="1" type="32001" model="2119088338" name="红箭7">
+					<munition index="0" model="2133072149" name="红箭7 弹药" loads="10"/>
+					</weapon>
+				<weapon MaxLoads="10" index="2" type="31002" model="2138210490" name="帕拉丁-155mm榴弹炮">
+					<munition index="0" model="3925562" name="155mm 榴弹炮弹药" loads="10"/>
+					</weapon>
+				<sensor index="0" type="203103" model="3341390" name="CCD探测器"/>
+				<sensor index="1" type="21002" model="5212968" name="GPS导航系统"/>
+				<decoy index="0" type="401103" model="3605852" name="烟幕弹"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="2118502578" type="1050302011" name="M163“火神” 高射炮" motionMaxHeight="1" motionMaxVel="18.8888888888889">
+			<Mounteds>
+				<weapon MaxLoads="2100" index="0" type="31002" model="937229817" name="M-61 Vulcan">
+					<munition index="0" model="10000104" name="20mm-aa" loads="2100"/>
+					</weapon>
+				<sensor index="0" type="21004" model="3010799" name="SPS-40"/>
+				<sensor index="1" type="21002" model="6128427" name="AN/VPS-2型测距雷达"/>
+				<sensor index="2" type="203101" model="2126462637" name="光学瞄准镜"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="2124461425" type="1050102011" name="M-60A3主战坦克" motionMaxHeight="1" motionMaxVel="16.6666666666667">
+			<Mounteds>
+				<weapon MaxLoads="63" index="0" type="31002" model="2119271271" name="105毫米滑膛炮">
+					<munition index="0" model="2122826116" name="105mm低后坐力坦克炮" loads="63"/>
+					</weapon>
+				<weapon MaxLoads="900" index="1" type="31001" model="3742878" name="12.7mm高射机枪">
+					<munition index="0" model="2140943107" name="12.7mm" loads="900"/>
+					</weapon>
+				<weapon MaxLoads="5950" index="2" type="31001" model="2119366325" name="7.62mm同轴机枪">
+					<munition index="0" model="10000364" name="7.62mm" loads="5950"/>
+					</weapon>
+				<sensor index="0" type="203201" model="5574735" name="车长独立热像仪"/>
+				<sensor index="1" type="2092" model="3476635" name="激光测距仪"/>
+				<sensor index="2" type="203101" model="5585422" name="改进型周视潜望镜"/>
+				<sensor index="3" type="2091" model="5356006" name="AN/AVR-2激光告警器"/>
+				<decoy index="0" type="401103" model="3605852" name="烟幕弹"/>
+				<communication index="0" type="5" model="2126388504" name="车载电台"/></Mounteds></node>
+		<node model="2128501934" type="1050302021" name="6-25弹炮结合武器系统" motionMaxHeight="1" motionMaxVel="24.7222222222222">
+			<Mounteds>
+				<sensor index="0" type="203201" model="4438054" name="红外热像仪"/>
+				<sensor index="1" type="2051" model="2051000102" name=" IFF"/>
+				<sensor index="2" type="2092" model="3476635" name="激光测距仪"/>
+				<sensor index="3" type="203101" model="2126462637" name="光学瞄准镜"/>
+				<sensor index="4" type="203103" model="2120178817" name="STC"/>
+				<sensor index="5" type="2053" model="6154872" name="AN/PPX3B式"/>
+				<sensor index="6" type="21001" model="4565564" name="S波段多普勒"/>
+				<communication index="0" type="5" model="2127653141" name="车载超短波电台"/>
+				<communication index="1" type="5" model="2127332303" name="车载短波电台"/></Mounteds></node>
+		<node model="2144204432" type="1050102012" name="CM21式步兵战斗车" motionMaxHeight="1000" motionMaxVel="22.2222222222222">
+			<Mounteds>
+				<weapon MaxLoads="3000" index="0" type="31001" model="2141894253" name="12.7mm机枪">
+					<munition index="0" model="2140943107" name="12.7mm" loads="3000"/>
+					</weapon>
+				<sensor index="0" type="2051" model="2051000102" name=" IFF"/>
+				<sensor index="1" type="203102" model="1238537210" name="TV"/>
+				<sensor index="2" type="203201" model="1337537123" name="FLIR"/>
+				<sensor index="3" type="203201" model="1337537764" name="Driver's Vision Enhancer"/>
+				<sensor index="4" type="2092" model="3476635" name="激光测距仪"/>
+				<sensor index="5" type="21002" model="5212968" name="GPS导航系统"/>
+				<sensor index="6" type="203101" model="2126462637" name="光学瞄准镜"/>
+				<communication index="0" type="5" model="2127653141" name="车载超短波电台"/></Mounteds></node>
+		<node model="111000000" type="111" name="油弹补给点"/>
+		<node model="111000001" type="111" name="电台">
+			<Mounteds>
+				<communication index="0" type="5" model="2133156741" name="通信设备"/>
+				<communication index="1" type="5" model="5000288" name="通讯(30-1000)"/></Mounteds></node>
+		<node model="111000002" type="111" name="电视塔">
+			<Mounteds>
+				<communication index="0" type="5" model="2133156741" name="通信设备"/>
+				<communication index="1" type="5" model="5002608" name="通讯(48-960)"/></Mounteds></node>
+		<node model="111000003" type="111" name="台站">
+			<Mounteds>
+				<communication index="0" type="5" model="5002608" name="通讯(48-960)"/></Mounteds></node>
+		<node model="111000004" type="111" name="导航台站">
+			<Mounteds>
+				<communication index="0" type="5" model="5002608" name="通讯(48-960)"/></Mounteds></node>
+		<node model="111000005" type="111" name="对空警戒雷达站">
+			<Mounteds>
+				<sensor index="0" type="21001" model="2145971179" name="对空警戒雷达"/></Mounteds></node>
+		<node model="2139874358" type="111" name="防机降堡">
+			<Mounteds>
+				<weapon MaxLoads="20" index="0" type="32003" model="2135947738" name="毒刺 车载防空系统">
+					<munition index="0" model="10000889" name="Stinger 弹头" loads="20"/>
+					</weapon>
+				<weapon MaxLoads="500" index="1" type="31002" model="2676767" name="M-203 30mm机炮">
+					<munition index="0" model="2128738899" name="30mm" loads="500"/>
+					</weapon>
+				<sensor index="0" type="21001" model="2135416005" name="美国AN/FPS—115铺路爪"/>
+				<communication index="0" type="5" model="2133156741" name="通信设备"/></Mounteds></node>
+		<node model="2140198605" type="111" name="机场">
+			<Mounteds>
+				<communication index="0" type="5" model="2133156741" name="通信设备"/></Mounteds></node>
+		<node model="3010799" type="21004" name="SPS-40"/>
+		<node model="4565564" type="21001" name="S波段多普勒"/>
+		<node model="5212968" type="21002" name="GPS导航系统"/>
+		<node model="5269054" type="21002" name="多普勒导航系统"/>
+		<node model="6128427" type="21002" name="AN/VPS-2型测距雷达"/>
+		<node model="470835971" type="21004" name="Sea Tiger"/>
+		<node model="2118945921" type="21002" name="ASN-137多普勒速率测量系统"/>
+		<node model="2125850842" type="21001" name="直-19机载毫米波雷达"/>
+		<node model="2125880692" type="21001" name="AN/APG-78(V) 长弓毫米波雷达"/>
+		<node model="2135416005" type="21001" name="美国AN/FPS—115铺路爪"/>
+		<node model="2145971179" type="21001" name="对空警戒雷达"/>
+		<node model="2118993587" type="2041" name="AN/APR-39雷达预警处理系统"/>
+		<node model="2125316033" type="2041" name="雷达告警器"/>
+		<node model="6154872" type="2053" name="AN/PPX3B式"/>
+		<node model="2051000102" type="2051" name=" IFF"/>
+		<node model="2052000241" type="2052" name="AirIFF"/>
+		<node model="2125201191" type="2052" name="LKB02"/>
+		<node model="2137753647" type="2051" name="敌我识别问询机"/>
+		<node model="2137851447" type="2052" name="敌我识别应答机"/>
+		<node model="2137931922" type="2053" name="敌我识别接收机"/>
+		<node model="3476635" type="2092" name="激光测距仪"/>
+		<node model="5356006" type="2091" name="AN/AVR-2激光告警器"/>
+		<node model="2119407710" type="2092" name="CO2激光测距仪"/>
+		<node model="2132549909" type="2093" name="AKD-10/9 导引头（激光）"/>
+		<node model="2134259385" type="2091" name="激光照射器"/>
+		<node model="-2146313874" type="31002" name="90mm 坦克炮"/>
+		<node model="2676767" type="31002" name="M-203 30mm机炮"/>
+		<node model="3571604" type="31002" name="23mm 航炮"/>
+		<node model="3742878" type="31001" name="12.7mm高射机枪"/>
+		<node model="937229142" type="31002" name="25mm加特林式速射炮"/>
+		<node model="937229817" type="31002" name="M-61 Vulcan"/>
+		<node model="2119271271" type="31002" name="105mm 滑膛炮"/>
+		<node model="2119366325" type="31001" name="7.62mm同轴机枪"/>
+		<node model="2137086041" type="31002" name="75mm 榴弹炮"/>
+		<node model="2137582713" type="31002" name="T86 120mm迫击炮"/>
+		<node model="2138210490" type="31002" name="帕拉丁-155mm榴弹炮"/>
+		<node model="2138335216" type="31002" name="PLZ05 155mm"/>
+		<node model="2138936380" type="31002" name="100mm 迫击炮"/>
+		<node model="2141894253" type="31001" name="12.7mm机枪"/>
+		<node model="2194267" type="32004" name="PL-90 空空导弹" motionMaxVel="799.999930885527">
+			<Mounteds>
+				<sensor index="0" type="203201" model="2132573268" name="PL-90 红外导引头"/></Mounteds></node>
+		<node model="2203386" type="32005" name="AKD-10 空地导弹" motionMaxVel="799.999930885527">
+			<Mounteds>
+				<sensor index="0" type="2093" model="2132549909" name="AKD-10/9 导引头（激光）"/></Mounteds></node>
+		<node model="2323179" type="32005" name="AKD-9 空地导弹" motionMaxVel="799.999930885527">
+			<Mounteds>
+				<sensor index="0" type="2093" model="2132549909" name="AKD-10/9 导引头（激光）"/></Mounteds></node>
+		<node model="2540253" type="32004" name="毒刺(机载) 导弹" motionMaxVel="748.999935291575">
+			<Mounteds>
+				<sensor index="0" type="203201" model="2132852219" name="毒刺（机载）红外导引头"/></Mounteds></node>
+		<node model="2585306" type="32001" name="地狱火 反坦克导弹" motionMaxVel="339.99997062635">
+			<Mounteds>
+				<sensor index="0" type="2093" model="2132678143" name="地狱火 激光导引头"/>
+				<communication index="0" type="5" model="2133156741" name="通信设备"/></Mounteds></node>
+		<node model="4606247" type="32003" name="FIM-92A" motionMaxVel="748.999935291575">
+			<Mounteds>
+				<sensor index="0" type="203201" model="2129907861" name="毒刺（车载）红外导引头"/>
+				<sensor index="1" type="203201" model="2129957110" name="毒刺（便携）红外导引头"/>
+				<communication index="0" type="5" model="2133156741" name="通信设备"/></Mounteds></node>
+		<node model="4688670" type="32003" name="FIM-92B" motionMaxVel="748.999935291575">
+			<Mounteds>
+				<sensor index="0" type="203201" model="2129907861" name="毒刺（车载）红外导引头"/>
+				<sensor index="1" type="203201" model="2129957110" name="毒刺（便携）红外导引头"/>
+				<communication index="0" type="5" model="2133156741" name="通信设备"/></Mounteds></node>
+		<node model="4787425" type="32003" name="FIM-92C" motionMaxVel="748.999935291575">
+			<Mounteds>
+				<sensor index="0" type="203201" model="2129907861" name="毒刺（车载）红外导引头"/>
+				<sensor index="1" type="203201" model="2129957110" name="毒刺（便携）红外导引头"/>
+				<communication index="0" type="5" model="2133156741" name="通信设备"/></Mounteds></node>
+		<node model="1939230746" type="32004" name="AIM-9 响尾蛇(机载)" motionMaxVel="799.999930885527">
+			<Mounteds>
+				<sensor index="0" type="203201" model="2132694402" name="AIM-9响尾蛇（机载）红外导引头"/></Mounteds></node>
+		<node model="2118752632" type="32005" name="AKD-8 空地导弹" motionMaxVel="799.999930885527"/>
+		<node model="2119088338" type="32001" name="红箭7" motionMaxVel="399.999965442765">
+			<Mounteds>
+				<communication index="0" type="5" model="2133156741" name="通信设备"/></Mounteds></node>
+		<node model="2135947738" type="32003" name="毒刺 车载防空系统" motionMaxVel="748.999935291575">
+			<Mounteds>
+				<sensor index="0" type="21001" model="2125880692" name="AN/APG-78(V) 长弓毫米波雷达"/>
+				<sensor index="1" type="21001" model="5452609" name="air-radar"/></Mounteds></node>
+		<node model="2141833089" type="32005" name="蓝箭-9空地导弹" motionMaxVel="800.002197552">
+			<Mounteds>
+				<sensor index="0" type="2093" model="2132549909" name="AKD-10/9 导引头（激光）"/></Mounteds></node>
+		<node model="2141849876" type="32004" name="天燕-90空空导弹" motionMaxVel="1199.998151884"/>
+		<node model="2142114182" type="32004" name="AA-8“蚜虫”" motionMaxVel="1199.9998963283"/>
+		<node model="2142172151" type="32004" name="AA-11“射手”" motionMaxVel="1257.99989131749"/>
+		<node model="2143566883" type="32005" name="AT-9“旋风”反坦克导弹" motionMaxVel="799.999930885527">
+			<Mounteds>
+				<sensor index="0" type="2093" model="2132549909" name="AKD-10/9 导引头（激光）"/></Mounteds></node>
+		<node model="2130617" type="34001" name="70mm航空火箭弹" motionMaxVel="249.999978401728"/>
+		<node model="2638096" type="34001" name="海蛇怪 70mm火箭" motionMaxVel="249.999978401728"/>
+		<node model="357738134" type="34002" name="120mm反坦克火箭弹" motionMaxVel="15.433332"/>
+		<node model="2118698162" type="34001" name="57-1型 57mm火箭弹" motionMaxVel="599.999948164145"/>
+		<node model="2118848666" type="34001" name="90-1型 90mm火箭弹" motionMaxVel="249.999978401728"/>
+		<node model="2143317362" type="34001" name="S-8型 80毫米火箭发射器" motionMaxVel="599.999948164145"/>
+		<node model="3341390" type="203103" name="CCD探测器(电视观瞄具)"/>
+		<node model="4057170" type="203101" name="炮长直接瞄准镜"/>
+		<node model="4141535" type="203103" name="数字式火炮周视瞄准镜"/>
+		<node model="4238127" type="203103" name="车长昼夜稳像周视观察镜"/>
+		<node model="4567228" type="203102" name="电视跟踪器"/>
+		<node model="5585422" type="203101" name="改进型周视潜望镜"/>
+		<node model="6196293" type="203101" name="单目瞄准镜"/>
+		<node model="1238537210" type="203102" name="TV"/>
+		<node model="2120178817" type="203103" name="STC"/>
+		<node model="2126462637" type="203101" name="M61型 光学瞄准镜"/>
+		<node model="2138525473" type="203103" name="M53式瞄准具"/>
+		<node model="2138555785" type="203103" name="TS86式瞄准具"/>
+		<node model="2138742981" type="203101" name="地对地目视"/>
+		<node model="4438054" type="203201" name="红外摄像机"/>
+		<node model="5574735" type="203201" name="车长独立热像仪"/>
+		<node model="6043665" type="203201" name="二代增强式红外热像仪"/>
+		<node model="1337537123" type="203201" name="FLIR"/>
+		<node model="1337537764" type="203201" name="Driver flir"/>
+		<node model="2125261574" type="203201" name="热像观瞄具"/>
+		<node model="2127443601" type="203201" name="AN/CSG-2 热成像仪夜视系统"/>
+		<node model="2132573268" type="203201" name="PL-90 红外导引头"/>
+		<node model="2137709892" type="203201" name="AN/PAS-18"/>
+		<node model="2083901888" type="10801" name="单兵" motionMaxVel="28.8">
+			<Mounteds>
+				<sensor index="0" type="203201" model="2137709892" name="AN/PAS-18"/>
+				<sensor index="1" type="2053" model="6154872" name="AN/PPX3B式"/>
+				<sensor index="2" type="203101" model="6196293" name="单目瞄准镜"/>
+				<communication index="0" type="5" model="2127750880" name="便携电台"/></Mounteds></node>
+		<node model="2083901889" type="10801" name="人" motionMaxVel="28.8">
+			<Mounteds>
+				<communication index="0" type="5" model="2127750880" name="便携电台"/></Mounteds></node>
+		<node model="2083901890" type="10801" name="步兵（枪炮）" motionMaxVel="28.8">
+			<Mounteds>
+				<weapon MaxLoads="10" index="0" type="31001" model="2141894253" name="12.7mm机枪">
+					<munition index="0" model="2140943107" name="12.7mm" loads="10"/>
+					</weapon>
+				<sensor index="0" type="203101" model="2138742981" name="地对地目视"/>
+				<communication index="0" type="5" model="2127750880" name="便携电台"/></Mounteds></node>
+		<node model="2083901891" type="10801" name="人（无枪炮）" motionMaxHeight="80" motionMaxVel="28.8">
+			<Mounteds>
+				<communication index="0" type="5" model="5002608" name="通讯(48-960)"/></Mounteds></node>
+		<node model="2133199946" type="10801" name="人（毒刺便携）" motionMaxVel="28.8">
+			<Mounteds>
+				<weapon MaxLoads="30" index="0" type="32003" model="4787425" name="FIM-92C">
+					<munition index="0" model="10000889" name="Stinger 弹头" loads="30"/>
+					</weapon>
+				<sensor index="0" type="203201" model="2137709892" name="AN/PAS-18"/>
+				<sensor index="1" type="2053" model="6154872" name="AN/PPX3B式"/>
+				<sensor index="2" type="203101" model="6196293" name="单目瞄准镜"/>
+				<communication index="0" type="5" model="2127750880" name="便携电台"/></Mounteds></node>
+		<node model="2368687" type="401101" name="Z10 I型箔条弹" motionMaxHeight="3048.000000012"/>
+		<node model="1669041535" type="401101" name="Chaff" motionMaxHeight="304.8000000012"/>
+		<node model="2457849" type="401102" name="I型红外弹" motionMaxHeight="3048.000000012"/>
+		<node model="1670041587" type="401102" name="flare" motionMaxHeight="45.72000000018"/>
+		<node model="3605852" type="401103" name="烟幕弹" motionMaxHeight="152.4000000006"/>
+		<node model="2132769895" type="4022011" name="直-10干扰机"/>
+		<node model="2132833850" type="4022011" name="AH-64干扰机"/></TKB>
+	<BKB>
+	
+		<node id="412" type="110103" name="激活所有传感器"/>
+		<node id="481" type="1101" name="释放实体"/>
+		<node id="262" type="1101" name="攻击空中威胁"/>
+		<node id="330" type="1101" name="攻击地下目标"/>
+		<node id="263" type="1101" name="拦截导弹雷达"/>
+		<node id="1" type="1101" name="巡逻（军用船舰）"/>
+		<node id="422" type="1101" name="航母放下载机"/>
+		<node id="419" type="1101" name="航母载机"/>
+		<node id="464" type="1101" name="区域巡航"/>
+		<node id="442" type="1101" name="停止"/>
+		<node id="441" type="1101" name="巡洋舰打击"/>
+		<node id="498" type="102" name="潜艇：发射鱼雷打击航母"/>
+		<node id="424" type="130101" name="作战第二阶段飞机行为 (一)"/>
+		<node id="425" type="130101" name="作战第二阶段飞机行为 (二)"/>
+		<node id="426" type="130101" name="作战第二阶段飞机行为 (三)"/>
+		<node id="61" type="1031" name="释放箔条和闪光弹"/>
+		<node id="108" type="1031" name="无限制使用通讯"/>
+		<node id="60" type="1031" name="靠近拦截目标"/>
+		<node id="63" type="1031" name="逃避"/>
+		<node id="55" type="1031" name="中程拦截"/>
+		<node id="267" type="1031" name="基地"/>
+		<node id="67" type="1031" name="确认空中目标"/>
+		<node id="465" type="1031" name="部署到基地"/>
+		<node id="463" type="1031" name="从野战机场起飞"/>
+		<node id="429" type="1031" name="打开探测器攻击目标"/>
+		<node id="475" type="1031" name="返回野战机场"/>
+		<node id="417" type="1031" name="返回野战机场(通用)"/>
+		<node id="420" type="1031" name="跟随编队"/>
+		<node id="492" type="1031" name="固定翼飞机返航(通用)"/>
+		<node id="471" type="1031" name="舰载护航分队部署在基地"/>
+		<node id="483" type="1031" name="舰载机迎敌作战"/>
+		<node id="451" type="1031" name="蓝机起飞拦截"/>
+		<node id="470" type="1031" name="离开基地"/>
+		<node id="433" type="1031" name="离开基地（通用）"/>
+		<node id="435" type="1031" name="离开基地测试"/>
+		<node id="415" type="1031" name="离开基地飞往导航线(通用)"/>
+		<node id="416" type="1031" name="离开基地飞往兴趣点(通用)"/>
+		<node id="480" type="1031" name="离开基地飞往巡航区域"/>
+		<node id="283" type="1031" name="巡逻"/>
+		<node id="540" type="130301" name="无人机：战场毁伤评估"/>
+		<node id="536" type="1033" name="无人机：空中侦察行动"/>
+		<node id="539" type="1033" name="无人机：通信中继行动"/>
+		<node id="538" type="1033" name="无人机：引导打击行动"/>
+		<node id="535" type="1033" name="无人机：战场监视任务"/>
+		<node id="487" type="103" name="保持航向和速度"/>
+		<node id="489" type="103" name="激活白噪声干扰自定义目标"/>
+		<node id="490" type="103" name="停止白噪声干扰"/>
+		<node id="469" type="1041" name="兵力输送"/>
+		<node id="466" type="1041" name="配置到野战机场"/>
+		<node id="467" type="1041" name="从野战机场起飞"/>
+		<node id="462" type="1041" name="跟随编队（目标）"/>
+		<node id="461" type="1041" name="直升机巡逻"/>
+		<node id="472" type="1041" name="直升机延迟起飞"/>
+		<node id="421" type="1041" name="从航母（大型舰艇）起飞"/>
+		<node id="47" type="1041" name="巡逻（军用直升机）"/>
+		<node id="64" type="104" name="巡逻警戒（旋翼直升机）"/>
+		<node id="42" type="104" name="延预定航线飞行"/>
+		<node id="41" type="104" name="离开"/>
+		<node id="44" type="104" name="保持当前状态"/>
+		<node id="46" type="104" name="追击"/>
+		<node id="45" type="104" name="撤退"/>
+		<node id="525" type="104" name="返航回基地"/>
+		<node id="529" type="104" name="避让"/>
+		<node id="524" type="104" name="武装直升机：对地攻击"/>
+		<node id="533" type="104" name="武装直升机：对地攻击(蓝)（初始无机动）"/>
+		<node id="526" type="104" name="武装直升机：空中护航"/>
+		<node id="534" type="104" name="武装直升机：空中护航(蓝)"/>
+		<node id="532" type="104" name="武装直升机：空中护航(运输)"/>
+		<node id="413" type="104" name="武装直升机作战"/>
+		<node id="531" type="104" name="运输直升机：实施纵深输送"/>
+		<node id="523" type="104" name="侦察直升机：巡航侦察"/>
+		<node id="348" type="10502" name="用火箭清除雷区"/>
+		<node id="448" type="105030202" name="导弹车开火"/>
+		<node id="177" type="1051" name="改变行动方向"/>
+		<node id="178" type="1051" name="改变速度"/>
+		<node id="187" type="1051" name="靠近目标"/>
+		<node id="175" type="1051" name="靠近目标（零米）"/>
+		<node id="343" type="1052" name="巡逻（地面车辆）（民用）"/>
+		<node id="333" type="105" name="跟随编队"/>
+		<node id="511" type="105" name="车辆沿路机动"/>
+		<node id="516" type="105" name="冲击作战"/>
+		<node id="500" type="105" name="防空导弹系统自主拦截"/>
+		<node id="501" type="105" name="防空高炮自主拦截"/>
+		<node id="514" type="105" name="改变朝向240度"/>
+		<node id="513" type="105" name="改变朝向60度"/>
+		<node id="517" type="105" name="红方坦克占领阵地"/>
+		<node id="518" type="105" name="蓝方坦克占领阵地"/>
+		<node id="509" type="105" name="炮兵对任务区射击"/>
+		<node id="505" type="105" name="迫击炮：防御作战"/>
+		<node id="515" type="105" name="坦克：防御作战"/>
+		<node id="522" type="105" name="停止"/>
+		<node id="512" type="105" name="占领阵地"/>
+		<node id="214" type="10801" name="开枪"/>
+		<node id="370" type="10801" name="向该地区开火"/>
+		<node id="319" type="10801" name="集中目标"/>
+		<node id="362" type="10801" name="跟随目标"/>
+		<node id="220" type="10801" name="跳"/>
+		<node id="217" type="10801" name="跪"/>
+		<node id="205" type="10801" name="躺"/>
+		<node id="204" type="10801" name="坐"/>
+		<node id="203" type="10801" name="站立"/>
+		<node id="218" type="10801" name="停止"/>
+		<node id="210" type="10801" name="走到相对位置"/>
+		<node id="206" type="10801" name="步行到目标"/>
+		<node id="521" type="10801" name="便携式防空射手：防空行动"/>
+		<node id="527" type="10801" name="人员登机"/>
+		<node id="528" type="10801" name="人员占领阵地就地防御"/>
+		<node id="387" type="1080203" name="停止"/>
+		<node id="436" type="111" name="弹道导弹发射"/>
+		<node id="439" type="111" name="弹道导弹发射 (延迟六分钟)"/>
+		<node id="446" type="111" name="防空武器"/>
+		<node id="414" type="111" name="基地"/>
+		<node id="504" type="111" name="预警雷达搜索目标"/>
+		<node id="145" type="112" name="五十英尺高"/>
+		<node id="75" type="32001" name="追逐"/>
+		<node id="40" type="32001" name="Generic Active Missile-NIU"/>
+		<node id="76" type="32001" name="GoStraight-Surface_M"/>
+		<node id="49" type="32002" name="Generic Maritime Active Missile"/>
+		<node id="93" type="32002" name="Generic Maritime Active Missile-NIU"/>
+		<node id="438" type="32002" name="无限距离"/>
+		<node id="107" type="32003" name="Generic_Controlled"/>
+		<node id="34" type="32003" name="LR-SAM"/>
+		<node id="150" type="32004" name="GoStraight-Air_M"/>
+		<node id="484" type="32004" name="空空制导导弹"/>
+		<node id="119" type="32005" name="空地导弹"/>
+		<node id="285" type="33001" name="Attack Target"/>
+		<node id="393" type="33001" name="Simple Active"/>
+		<node id="284" type="33002" name="Simple Passive"/>
+		<node id="394" type="33003" name="Simple Wake"/>
+		<node id="100" type="303" name="Simple"/>
+		<node id="149" type="901001" name="使用地对空导弹（霍克地对空导弹）侵略性防空"/>
+		<node id="128" type="901" name="侵略性防空"/>
+		<node id="154" type="901" name="使用地对空导弹（萨姆防空导弹）侵略性防空"/>
+		<node id="83" type="901" name="使用地对空导弹（萨姆防空导弹站点）侵略性防空"/>
+		<node id="292" type="902001" name="攻击战斗机"/>
+		<node id="325" type="902001" name="攻击重要船只"/>
+		<node id="294" type="902001" name="攻击船只"/>
+		<node id="52" type="902001" name="巡逻"/>
+		<node id="37" type="902002" name="二四拦截器"/>
+		<node id="496" type="902002" name="八机编队"/>
+		<node id="304" type="902002" name="抓住敌方目标"/>
+		<node id="309" type="902002" name="拦截"/>
+		<node id="313" type="902002" name="派遣攻击战斗机"/>
+		<node id="312" type="902002" name="发送探测信号"/>
+		<node id="307" type="902002" name="等待"/>
+		<node id="427" type="902002" name="通讯"/>
+		<node id="315" type="902003" name="防守"/>
+		<node id="403" type="904001" name="编队单线"/>
+		<node id="252" type="904002" name="开火"/>
+		<node id="102" type="904002" name="编队（停车）"/>
+		<node id="103" type="904002" name="编队（人形）"/>
+		<node id="251" type="904002" name="机动"/>
+		<node id="408" type="904002" name="火力掩护到达目的地"/>
+		<node id="507" type="904002" name="防空导弹连：防空行动"/>
+		<node id="506" type="904002" name="高炮连：防空行动"/>
+		<node id="519" type="904002" name="红方坦克连：机动展开冲击作战"/>
+		<node id="530" type="904002" name="机降连：实施纵深机降作战"/>
+		<node id="520" type="904002" name="蓝方坦克连：机动展开作战"/>
+		<node id="510" type="904002" name="炮兵连：对任务区集中射击"/>
+		<node id="542" type="904002" name="沿航线侦察"/>
+		<node id="508" type="904002" name="战斗准备"/>
+		<node id="32" type="1071" name="Fire 1 SAM"/>
+		<node id="33" type="1071" name="oldAggrasiveSearch"/>
+		<node id="35" type="1071" name="Search"/>
+		<node id="56" type="1061" name="Fire 1 missile"/>
+		<node id="58" type="1061" name="Fire 5 missiles"/>
+		<node id="57" type="1062" name="Fire 1 Gun"/>
+		<node id="59" type="1062" name="Fire 5 Gun"/>
+		<node id="65" type="1061" name="waiting"/>
+		<node id="66" type="1062" name="waiting"/>
+		<node id="53" type="1071" name="AggrasiveSearch "/>
+		<node id="79" type="1071" name="Controlled_Engagement"/>
+		<node id="94" type="1061" name="Shore_Defence"/>
+		<node id="18" type="104" name="空投"/>
+		<node id="19" type="104" name="空降"/>
+		<node id="20" type="104" name="停止投降"/>
+		<node id="21" type="104" name="搜索营救"/>
+		<node id="22" type="104" name="立即攻击"/>
+		<node id="43" type="104" name="停止攻击"/>
+		<node id="48" type="104" name="以一定的方位速度攻击目标 (四十八)"/>
+		<node id="50" type="104" name="区域掩护"/>
+		<node id="51" type="104" name="查明情况"/>
+		<node id="54" type="104" name="伤员后送"/>
+		<node id="118" type="104" name="布雷"/>
+		<node id="331" type="104" name="火力校射"/>
+		<node id="418" type="104" name="盘旋"/>
+		<node id="423" type="104" name="火力打击"/>
+		<node id="428" type="104" name="武装侦察"/>
+		<node id="430" type="104" name="空域待战"/>
+		<node id="431" type="104" name="返回野战机场（旋翼直升机）"/>
+		<node id="432" type="104" name="夺取制空权"/>
+		<node id="434" type="104" name="伴随掩护"/>
+		<node id="437" type="104" name="起飞"/>
+		<node id="440" type="104" name="突防（旋翼直升机）"/>
+		<node id="445" type="104" name="降落"/>
+		<node id="447" type="104" name="返航"/>
+		<node id="101" type="904002" name="突防"/>
+		<node id="105" type="904006" name="沿线路行进"/>
+		<node id="253" type="104" name="用户操作"/>
+		<node id="254" type="904002" name="火力掩护到达目的地 (备份)"/>
+		<node id="449" type="904002" name="巡逻警戒"/>
+		<node id="452" type="904002" name="用户操作"/>
+		<node id="454" type="904004" name="沿路机动"/>
+		<node id="455" type="104" name="蓝方攻击机"/>
+		<node id="456" type="1041" name="武装直升机：对地攻击(蓝) (初始机动)"/>
+		<node id="457" type="10801" name="人员登机 (原)"/>
+		<node id="473" type="10801" name="人员离机"/>
+		<node id="479" type="904002" name="编队（人形） (备份)"/>
+		<node id="488" type="904004" name="沿路机动 (蓝)"/>
+		<node id="494" type="104" name="飞往目标点"/>
+		<node id="537" type="904002" name="机长切换（一）"/>
+		<node id="544" type="904002" name="机长切换（二）"/>
+		<node id="545" type="32005" name="空地导弹 (备份)"/>
+		<node id="546" type="10501" name="车辆沿路机动 (修改)"/>
+		<node id="547" type="904004" name="沿路机动 (蓝) (无下属)"/>
+		<node id="548" type="904002" name="编队（单线）"/>
+		<node id="549" type="1041" name="跟随编队 (无目标)"/>
+		<node id="2" type="105" name="沿导航作战"/>
+		<node id="3" type="904001" name="机降连：实施纵深机降作战"/></BKB>
+</MAXSim>

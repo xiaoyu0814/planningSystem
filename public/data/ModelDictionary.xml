@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<ModelDict>
+  <Model modelId="384326" cnName="彩虹5无人机(C-1)" enName="" symbolCode="20613" symbolSize="12"/>
+  <Model modelId="566909" cnName="彩虹5无人机(C-2)" enName="" symbolCode="20613" symbolSize="12"/>
+  <Model modelId="37782" cnName="彩虹5无人机(Q-1)" enName="" symbolCode="20613" symbolSize="12"/>
+  <Model modelId="467512" cnName="彩虹5无人机(CQ-1)" enName="" symbolCode="20613" symbolSize="12"/>
+  <Model modelId="2820286" cnName="彩虹5无人机(CQ-2)" enName="" symbolCode="20613" symbolSize="12"/>
+  <Model modelId="622062" cnName="彩虹5无人机(B-1)" enName="" symbolCode="20613" symbolSize="12"/>
+  <Model modelId="643973" cnName="机场" enName="" symbolCode="60303" symbolSize="12"/>
+  <Model modelId="1117187" cnName="码头" enName="" symbolCode="21528" symbolSize="12"/>
+  <Model modelId="898567" cnName="电视塔" enName="" symbolCode="100104" symbolSize="12"/>
+  <Model modelId="2590775" cnName="电台" enName="" symbolCode="21005" symbolSize="12"/>
+  <Model modelId="1813772" cnName="基站" enName="" symbolCode="20813" symbolSize="12"/>
+  <Model modelId="2527137" cnName="雷达站" enName="" symbolCode="30216" symbolSize="12"/>
+  <Model modelId="2406196" cnName="IDF" enName="" symbolCode="20603" symbolSize="12"/>
+  <Model modelId="2469950" cnName="F-16" enName="" symbolCode="20603" symbolSize="12"/>
+  <Model modelId="1147666" cnName="新型防空速射高炮" enName="" symbolCode="20206" symbolSize="8"/>
+  <Model modelId="1894668" cnName="指挥所" enName="" symbolCode="10201" symbolSize="8"/>
+  <Model modelId="2083797" cnName="反坦克导弹" enName="" symbolCode="30105" symbolSize="8"/>
+  <Model modelId="2815981" cnName="电视制导导弹" enName="" symbolCode="3010101" symbolSize="8"/>
+  <Model modelId="1634348" cnName="防空导弹" enName="" symbolCode="3010301" symbolSize="8"/>
+  <Model modelId="unvalid" cnName="海岸巡逻艇" enName="" symbolCode="2051002" symbolSize="12"/>
+  <Model modelId="unvalid" cnName="导弹发射车" enName="" symbolCode="20407" symbolSize="12"/>
+  <Model modelId="unvalid" cnName="地空导弹" enName="" symbolCode="30103" symbolSize="8"/>
+  <Model modelId="2836574" cnName="履带式坦克" enName="" symbolCode="2040101" symbolSize="8"/>
+  <Model modelId="2898085" cnName="装甲人员运输车/步兵战车" enName="" symbolCode="20402" symbolSize="8"/>
+  <Model modelId="2950483" cnName="武装直升机" enName="" symbolCode="20615" symbolSize="8"/>
+  <Model modelId="1768931" cnName="固定翼战斗机" enName="" symbolCode="20605" symbolSize="8"/>
+  <Model modelId="2008165" cnName="固定翼战斗机" enName="" symbolCode="20605" symbolSize="8"/>
+  <Model modelId="2492196" cnName="海岸巡逻艇" enName="" symbolCode="20507" symbolSize="8"/>
+  <Model modelId="3040389" cnName="CH-5地面站车辆" enName="" symbolCode="20804" symbolSize="8"/>
+  <Model modelId="3265233" cnName="航空母舰" enName="" symbolCode="20501" symbolSize="8"/>
+  <Model modelId="1564149490" cnName="驱逐舰" enName="" symbolCode="20503" symbolSize="8"/>
+  <Model modelId="1631920738" cnName="武直10" enName="" symbolCode="20615" symbolSize="8"/>
+  <Model modelId="1631920370" cnName="米171" enName="" symbolCode="20615" symbolSize="8"/>
+  <Model modelId="1938264870" cnName="鱼雷艇" enName="" symbolCode="2050703" symbolSize="8"/>
+  <Model modelId="1938296105" cnName="船" enName="" symbolCode="2051101" symbolSize="8"/>
+  <Model modelId="1938317393" cnName="导弹艇" enName="" symbolCode="20506" symbolSize="8"/>
+  <Model modelId="1938394746" cnName="美国航空母舰" enName="" symbolCode="20501" symbolSize="8"/>
+  <Model modelId="1938415434" cnName="美国驱逐舰" enName="" symbolCode="20503" symbolSize="8"/>
+  <Model modelId="1938472190" cnName="海上钻井平台" enName="" symbolCode="50110" symbolSize="8"/>
+  <Model modelId="1303002088" cnName="BTR-152(步兵战车)" enName="" symbolCode="20402" symbolSize="8"/>
+  <Model modelId="1301002816" cnName="反坦克导弹车" enName="" symbolCode="20407" symbolSize="8"/>
+  <Model modelId="1937229309" cnName="BGM-71D(TOW2)(导弹)" enName="" symbolCode="30105" symbolSize="8" symbolRotation="90.0"/>
+  <Model modelId="2065083359" cnName="发烟车" enName="" symbolCode="21607" symbolSize="8" symbolRotation="-90.0"/>
+  <Model modelId="2142666622" cnName="FFC03A型发烟车" enName="" symbolCode="21607" symbolSize="8" symbolRotation="-90.0"/>
+  <Model modelId="2124435966" cnName="99A式主战坦克" enName="" symbolCode="2040101" symbolSize="8"/>
+  <Model modelId="2119519926" cnName="激光制导炮射导弹" enName="" symbolCode="30103" symbolSize="8"/>
+  <Model modelId="2124461425" cnName="M-60A3主战坦克" enName="" symbolCode="2040101" symbolSize="8"/>
+  <Model modelId="2141695083" cnName="PGZ-07双35自行高炮" enName="" symbolCode="2020501" symbolSize="8"/>
+  <Model modelId="1157668" cnName="PLZ05 155mm 自行榴弹炮" enName="" symbolCode="2020501" symbolSize="8"/>
+  <Model modelId="2124626156" cnName="帕拉丁 155mm 自行榴弹炮" enName="" symbolCode="2020501" symbolSize="8"/>
+  <Model modelId="2135641489" cnName="红旗-17(导弹车)" enName="" symbolCode="20407" symbolSize="8"/>
+  <Model modelId="2135729017" cnName="红旗17(导弹)" enName="" symbolCode="30103" symbolSize="8"/>
+  <Model modelId="2124749283" cnName="红旗-7防空系统(导弹车)" enName="" symbolCode="20407" symbolSize="8"/>
+  <Model modelId="2032274" cnName="红旗7(导弹)" enName="" symbolCode="30103" symbolSize="8"/>
+  <Model modelId="2142585867" cnName="步兵" enName="" symbolCode="10305" symbolSize="8"/>
+  <Model modelId="157084288" cnName="俄亥俄级战略核潜艇" enName="" symbolCode="2050902" symbolSize="8"/>
+  <Model modelId="1253981215" cnName="歼-11B" enName="" symbolCode="20603" symbolSize="8"/>
+  <Model modelId="1697691762" cnName="HQ-9" enName="" symbolCode="20407" symbolSize="8"/>
+  <Model modelId="1937228928" cnName="战斧4导弹" enName="" symbolCode="3010203" symbolSize="8"/>
+  <Model modelId="2136770872" cnName="印度M43式120mm迫击炮" enName="" symbolCode="20202" symbolSize="8"/>
+  <Model modelId="2144757545" cnName="地堡" enName="" symbolCode="21506" symbolSize="8"/>
+  <Model modelId="2144882944" cnName="锐鸢UAV无人侦察机" enName="" symbolCode="20607" symbolSize="8"/>
+  <Model modelId="2144651400" cnName="人_机枪手" enName="" symbolCode="2010103" symbolSize="8"/>
+  <Model modelId="2143516792" cnName="喷火器正手" enName="" symbolCode="3010203" symbolSize="8"/>
+  <Model modelId="2143559830" cnName="喷火器副手" enName="" symbolCode="3010203" symbolSize="8"/>
+  <Model modelId="2143571662" cnName="单兵火箭正手" enName="" symbolCode="21604" symbolSize="8"/>
+  <Model modelId="2143656280" cnName="单兵火箭副手" enName="" symbolCode="2012021" symbolSize="8"/>
+  <Model modelId="1128502261" cnName="SS-21_Scarab" enName="" symbolCode="20407" symbolSize="8"/>
+  <Model modelId="2145063303" cnName="02BX防化侦察车" enName="" symbolCode="21601" symbolSize="8"/>
+  <Model modelId="2145159871" cnName="03型喷洒车" enName="" symbolCode="2160101" symbolSize="8"/>
+  <Model modelId="2145219765" cnName="扩展方舱车" enName="" symbolCode="21811" symbolSize="8"/>
+  <!--暂时没找到合适的图标-->
+  <Model modelId="2144983065" cnName="核爆炸探测车" enName="" symbolCode="30221" symbolSize="8"/>
+</ModelDict>
